@@ -1,0 +1,480 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+#right {
+  height: 100%;
+}
+
+body {
+  background-color: #acd2cd;
+  color: #34495e;
+  position: relative;
+}
+
+
+
+
+/**** Nav bar page ****/
+
+#navbar-name {
+  line-height: 50%;
+}
+
+.projectName {
+  text-transform: uppercase;
+  color: #a4add3;
+  padding: 25px 10px 0px 10px;
+}
+
+
+.navbar {
+  background-color: #5b6570;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  line-height: normal;
+  padding: 8px;
+}
+
+.navbar a {
+  color: white;
+}
+
+.navbar a:hover {
+  color: white;
+  text-decoration: none;
+
+}
+
+
+.navbar ul {
+  float: right;
+  color: #a4add3;
+}
+
+.navbar ul li {
+  display: inline-block;
+  padding: 10px 10px 0px 10px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing:  0.25em;
+  text-decoration: none;
+  transition: color 600ms;
+  -webkit-transition: color 600ms;
+  display: inline-block;
+  border-radius: 8%;
+}
+
+.nav>li>a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+.navbar a:hover {
+  color: #a4add3;
+  text-decoration: none;
+  border-radius: 8%;
+}
+
+/**** Home page ****/
+
+.carousel {
+  margin-left: -15px;
+  margin-right: -15px;
+  padding-top: 40px
+}
+
+.carousel-caption {
+    padding-top: 40px;
+    top: 0;
+    bottom: auto;
+}
+
+
+/**** About page ****/
+
+.header h1 {
+  text-align: center;
+  padding-top: 25px;
+}
+
+.container {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.image {
+  display: inline-block;
+  float: left;
+}
+
+.column {
+  display: inline-block;
+  float: left;
+  width: 33%;
+  padding: 0 25px;
+}
+
+
+.main-text {
+  clear: both;
+  /*padding-top:35px;*/
+
+}
+
+#ocean {
+  padding-bottom: 30px;
+}
+
+#skills {
+    text-align: left;
+    text-transform: uppercase;
+    background-color: #996688;
+    padding: 0px;
+    line-height: 1.3em;
+    margin-top: -1em;
+}
+
+#skills h3 {
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+#skill-list {
+  margin-left: 10px
+}
+
+
+#map {
+  height: 400px;
+  width: 100%;
+  padding-top: 30px;
+}
+
+/**** Work page ****/
+
+#app-btn {
+  padding-left: 55px;
+  padding-right: 140px;
+
+}
+
+
+#app-btn a:hover {
+  /*text-decoration: none;
+  -webkit-filter: blur(10px);*/
+  -webkit-filter: brightness(50%);
+
+}
+
+
+.work-btns {
+  display: inline-flex;
+  text-align: center;
+
+
+}
+
+.btn {
+    padding: 8px 16px;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+
+.modal-button {
+  text-align: center;
+  margin: 20px;
+}
+
+.panel-group {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+.panel-body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.modal-content {
+  color: black;
+}
+
+#modalembed {
+    height: 500px;
+    width: 100%;
+    padding: 10px;
+}
+
+#resume-icons{
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+
+
+#git {
+  padding-bottom: 30px;
+  padding-right: 100px;
+  padding-left:170px;
+}
+
+#git a:hover {
+  /*text-decoration: none;
+  -webkit-filter: blur(10px);*/
+
+  -webkit-filter: brightness(50%);
+}
+
+
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-top: 30px;
+}
+
+#work-header  {
+  text-align: center;
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  font-size: 35px;
+  margin: 40px;
+}
+
+
+
+.header h1 {
+  text-align: center;
+  padding-top: 20px
+}
+
+.work-img {
+  display: block; /* needed to center the element with margin */
+  margin: auto; /* center the image inside the column if it's smaller */
+  /*max-width: 200px;*/ /* needs to be set to the width of your image files if they are relatively small */
+  position: relative; /* is needed for .info position: absolute to work */
+}
+.info {
+  position: absolute; /* let's us move the text around and not worry about the image */
+  top: 15%; /* position the text 15% away from the top */
+  left: 22%;
+  color:#fff;
+  font-family:Futura;
+  text-transform:uppercase;
+  font-weight:700;
+  letter-spacing:0.5em;
+  line-height:1.6;
+  display: none;
+}
+.proj-title {
+  font-weight:100;
+
+}
+
+
+
+/**** Contact page ****/
+
+#contact-header {
+  text-align: center;
+  padding-top: 40px;
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  font-size: 40px;
+}
+
+
+#contact{
+  padding-top: 30px;
+  background-image: url("../img/lake.jpg");
+/*Add a background image*/
+  background-attachment: fixed;
+/*Give the background a fixed position does it not scroll when you scroll*/
+  background-size: cover;
+/*Have the background cover the entire div section*/
+  color: white;
+/*Change the color of the text on top so it is readable, and adjust the padding as needed.*/
+  /*padding:20px;*/
+  /*margin-top: 4em;*/
+  height: 600px;
+  width: 90%;
+}
+
+#contact-header {
+  padding-top: 20px;
+}
+
+.contact-info {
+  padding-top: 230px;
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 1.5em;
+  /*padding-top: 130px;*/
+}
+
+.contact-info p:hover {
+  color: #8a6da0;
+  text-decoration: none;
+}
+
+.form-control {
+  width: 27%
+}
+
+.message-box {
+  color: black;
+}
+
+#credentials {
+  padding-top: 65px;
+
+}
+
+
+
+/**********faq page*********/
+
+
+#faq-header {
+  text-align: center;
+  padding-top: 80px;
+  color: #34495e;
+  text-decoration: none;
+  font-size: 40px;
+
+}
+
+.faq-container {
+  padding-top: 20px;
+  padding-bottom: 37px;
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+
+.header h1 {
+  text-align: center;
+  padding-top: 80px;
+  color: #34495e;
+}
+
+
+
+#faq-title {
+  height:100vh;
+  text-align: left;
+}
+
+
+
+
+/*#youtube {
+  padding-top: 20px;
+  padding-bottom: 40px;
+
+}*/
+
+
+
+
+
+/*Footer*/
+
+#footer {
+  font-family: Futura;
+  color: white;
+  font-size: 15px;
+  position: fixed;
+  bottom:0;
+  width:100%;
+  left: 0;
+  padding: 8px;
+  text-align: center;
+  /*display: inline-table;*/
+  background-color: #5b6570;
+}
+
+.social {
+  padding-right: : 20px;
+  padding-left: 20px;
+  vertical-align: middle;
+}
+
+.social a {
+  margin: 40px;
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+
+}
+
+.social a:hover {
+  text-decoration: none;
+  -webkit-filter: blur(10px);
+
+
+}
+
+#copyright {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+/*Typography*/
+h1,
+h2,
+h3 {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+h3 {
+  font-size: 30px;
+  /*text-shadow: 2px 1px 4px #000;*/
+  text-shadow: 0 0 6px #000;
+
+  color: #dee1f1;
+}
+
+.p {
+  font-family: Georgia, Hoefler text, Rockwell, serif;
+ }
+
+.intro p {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: 100;
+  -webkit-margin-before: 0;
+}
+
+.li {
+  font-family: Georgia, Hoefler text, Rockwell, serif;
+}
+
+
